@@ -9,13 +9,37 @@ function Main() {
           Layots responsivos, rápidos e acessiveis para o seu negocio crescer
         </p>
         <div className="hero-buttons">
-            <a href="#orcamentos" className='btn-primary'>Peça um orçamento</a>
-            <a href="#portifolio" className='btn-secondary'>Ver portifolio</a>
+          <a href="#orcamentos" className="btn-primary">
+            Peça um orçamento
+          </a>
+          <a href="#portifolio" className="btn-secondary">
+            Ver portifolio
+          </a>
         </div>
-      </section>
+      </section> 
       <section className="service">
-
-
+        <br />
+        <h2>Nossos serviços</h2> 
+<br />
+        <div className="servicos-grid">
+          <div className="servico-card">
+            <span>🪟</span>
+            <h3>Design Design</h3>
+            <p>telas claras, pensadas para o usuário.</p>
+          </div>
+          <div>
+            <div className="servico-card">
+              <span>📱</span>
+              <h3>Responsividade</h3>
+              <p>O mesmo site em qualquer tela.</p>
+            </div>
+          </div>
+          <div className="servico-card">
+            <span>🚀</span>
+            <h3>Perfomace</h3>
+            <p>Páginas leves que carragam rapido</p>
+          </div>
+        </div>
       </section>
     </main>
   );
